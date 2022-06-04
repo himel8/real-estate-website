@@ -16,7 +16,7 @@ const Afflications = () => {
         <img
           src={RehabImg}
           alt="rehab-img"
-          className="w-[100%] mt-16 md:mb-0 md:w-[45%]"
+          className="w-[100%] mb-16 md:mb-0 md:w-[45%]"
         />
       </div>
     </div>

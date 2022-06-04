@@ -31,7 +31,7 @@ const adreessData = [
 
 const Address = () => {
   return (
-    <div className="w-1/2 mx-auto">
+    <div className="w-[95%] md:w-1/2 mx-auto">
       {adreessData.map((data, index) => (
         <div key={index} className="bg-[#F5F5F5] p-8 mb-12 rounded-md">
           <h2 className="text-left font-secondary font-medium text-2xl text-black mb-4">

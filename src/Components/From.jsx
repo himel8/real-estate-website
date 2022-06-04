@@ -11,7 +11,7 @@ const From = ({ isCareer }) => {
           Name
         </label>
         <input
-          className="shadow appearance-none border rounded w-full py-5 px-8 text-xl font-secondary text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded  w-[90%] mx-auto md:w-full py-5 px-8 text-xl font-secondary text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           id="username"
           type="text"
           placeholder="Enter your name"
@@ -27,7 +27,7 @@ const From = ({ isCareer }) => {
             Profession
           </label>
           <input
-            className="shadow appearance-none border rounded w-full py-5 px-8 text-xl font-secondary text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded w-[90%] mx-auto md:w-full py-5 px-8 text-xl font-secondary text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="profession"
             type="text"
             placeholder="Enter your required post"
@@ -42,7 +42,7 @@ const From = ({ isCareer }) => {
             Address
           </label>
           <input
-            className="shadow appearance-none border rounded w-full py-5 px-8 text-xl font-secondary text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded w-[90%] mx-auto md:w-full py-5 px-8 text-xl font-secondary text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="profession"
             type="text"
             placeholder="Full address of the land"
@@ -58,7 +58,7 @@ const From = ({ isCareer }) => {
           Phone
         </label>
         <input
-          className="shadow appearance-none border rounded w-full py-5 px-8 text-xl font-secondary text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded w-[90%] mx-auto md:w-full py-5 px-8 text-xl font-secondary text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           id="number"
           type="text"
           placeholder="Enter your phone number"
@@ -73,7 +73,7 @@ const From = ({ isCareer }) => {
           Email
         </label>
         <input
-          className="shadow appearance-none border rounded w-full py-5 px-8 text-xl font-secondary text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded w-[90%] mx-auto md:w-full py-5 px-8 text-xl font-secondary text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           id="email"
           type="email"
           placeholder="Enter your email address"

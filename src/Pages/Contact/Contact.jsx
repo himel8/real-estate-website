@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../Components/Footer";
+import Navbar from "../../Components/Navbar";
 import SectionBanner from "../../Components/SectionBanner";
 import Title from "../../Components/Title";
 import Address from "../../Containers/Contact/Address";
@@ -8,6 +9,7 @@ import GoogleMap from "../../Containers/Contact/GoogleMap";
 const Contact = () => {
   return (
     <>
+      <Navbar />
       <SectionBanner name={"contact US"} image={"bg-aboutBg"} />
       <div className="text-center">
         <Title title={"Contact us"} />

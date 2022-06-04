@@ -10,7 +10,7 @@ const Selectoption = ({ label, options, defaultText }) => {
         {label}
       </label>
       <select
-        className="capitalize form-select block w-full py-5 px-8 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none text-gray-600 text-xl font-secondary font-medium mb-3 selection:bg-white"
+        className="capitalize form-select block w-[90%]  md:w-full py-5 px-8 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none text-gray-600 text-xl font-secondary font-medium mb-3 selection:bg-white"
         aria-label="Default select example"
       >
         <option selected value={defaultText}>

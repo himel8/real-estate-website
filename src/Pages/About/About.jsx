@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../../Components/Footer";
+import Navbar from "../../Components/Navbar";
 import SectionBanner from "../../Components/SectionBanner";
 import Afflications from "../../Containers/About/Afflications";
 import ChairmanMsg from "../../Containers/About/ChairmanMsg";
@@ -12,6 +13,7 @@ import Vision from "../../Containers/About/Vision";
 const About = () => {
   return (
     <>
+      <Navbar />
       <SectionBanner name={"ABOUT US"} image={"bg-aboutBg"} />
       <div className="py-24">
         <Description />
