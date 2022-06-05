@@ -14,7 +14,7 @@ const menuData = [
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className=" sticky top-0 z-50 bg-white">
+    <div className="sticky top-0 z-50 bg-white shadow-xl">
       <div className="w-[95%] md:w-[85%] mx-auto ">
         <header className="flex justify-between items-center  drop-shadow-sm py-4 px-4">
           {/* logo  */}
@@ -23,17 +23,17 @@ const Navbar = () => {
           </Link>
 
           {/* mobile menu toggle  */}
-          <IoMenuOutline className="text-6xl" onClick={() => setOpen(!open)} />
+          <IoMenuOutline className="text-4xl" onClick={() => setOpen(!open)} />
         </header>
       </div>
       <nav
         className={`${
-          open ? "right-0" : "right-[-500px] md:right-[-500px]"
-        } absolute top-0 transition-all ease-in duration-500 h-screen bg-gray-700 w-[-300px] md:w-[500px] px-20 md:px-24 pt-12`}
+          open ? "right-0" : "right-[-400px] md:right-[-500px]"
+        } absolute top-0 transition-all ease-in duration-500 h-screen bg-gray-700 w-[-300px] md:w-[400px] px-20 md:px-20 pt-12`}
       >
         {/* <FaTimes className="text-6xl" onClick={() => setOpen(!open)} /> */}
         <p
-          className="text-6xl cursor-pointer text-right mb-12 text-white"
+          className="text-4xl cursor-pointer text-right mb-12 text-white"
           onClick={() => setOpen(!open)}
         >
           ×
@@ -46,7 +46,7 @@ const Navbar = () => {
             >
               <Link
                 to={data.link}
-                className="inline-flex py-4 px-3 font-secondary text-2xl md:text-3xl"
+                className="inline-flex py-4 px-3 font-secondary text-xl md:text-2xl"
               >
                 {data.name}
               </Link>
