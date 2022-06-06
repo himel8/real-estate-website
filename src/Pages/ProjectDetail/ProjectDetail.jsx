@@ -28,7 +28,7 @@ const ProjectDetail = () => {
         <div key={index}>
           <ProjectBanner name={data.name} image={data.background} />
           <Details text={data.details} />
-          <FloorPlan />
+          <FloorPlan plans={data.plans} />
           <ProjectLocation address={data.address} />
           <ShowCase gallery={data.gallery} />
         </div>
