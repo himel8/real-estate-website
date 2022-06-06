@@ -16,7 +16,7 @@ const Features = () => {
       <Title title={"Feature projects"} />
       <Swiper
         modules={[Pagination, A11y]}
-        spaceBetween={50}
+        spaceBetween={window.innerWidth > 768 ? 50 : 10}
         slidesPerView={window.innerWidth > 768 ? 4 : 2}
         pagination={{ clickable: true }}
         onSwiper={(swiper) => console.log(swiper)}
