@@ -5,7 +5,7 @@ const NormalText = ({ children, isWhite = false }) => {
     <p
       className={`text-lg ${
         isWhite ? "text-white" : "text-black"
-      } font-secondary] tracking-wide leading-[38px] pb-6`}
+      } font-secondary] tracking-wide leading-[38px] pb-6 text-center md:text-left`}
     >
       {children}
     </p>

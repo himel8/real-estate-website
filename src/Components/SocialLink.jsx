@@ -5,12 +5,14 @@ import { Link } from "react-router-dom";
 
 const SocialLink = ({ name, details }) => {
   return (
-    <div className="flex my-5 items-start justify-start">
+    <div className="flex my-5 items-center  md:items-start justify-start ">
       {name === "address" && <MdLocationOn className="text-2xl mr-3" />}
-      {name === "phone" && <MdCall className="text-3xl mr-3" />}
-      {name === "email" && <BsEnvelope className="text-2xl mr-3" />}
+      {name === "phone" && <MdCall className="text-4xl mr-3" />}
+      {name === "email" && (
+        <BsEnvelope className="text-base md:text-2xl mr-3" />
+      )}
 
-      <div className="text-xl font-secondary tracking-wide">
+      <div className="text-base leading-[28px] md:text-xl font-secondary tracking-wide">
         {name === "address" && (
           <p className="capitalize">
             {name}:{" "}
@@ -32,7 +34,7 @@ const SocialLink = ({ name, details }) => {
           </p>
         )}
         {name === "phone" && (
-          <p className="capitalize">
+          <p className="capitalize ">
             {name}:{" "}
             {details.map((data, index) => {
               return (

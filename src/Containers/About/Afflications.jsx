@@ -5,7 +5,7 @@ import Title from "../../Components/Title";
 
 const Afflications = () => {
   return (
-    <div className="w-[95%] md:w-[85%] mx-auto py-24">
+    <div className="w-[95%] md:w-[85%] mx-auto py-6 md:py-24">
       <Title title={"AFFILIATIONS"} />
       <div className="flex justify-between items-center px-12 my-12 flex-wrap md:flex-nowrap flex-col md:flex-row">
         <img

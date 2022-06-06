@@ -47,7 +47,7 @@ const Social = () => {
         <div className="py-8">
           <SubTitle subtitle={"CONNECT SOCIALLY"} />
         </div>
-        <div className="flex items-center py-4">
+        <div className="flex items-center justify-center md:justify-start py-4">
           <Link to="#!">
             <FaFacebookF className="mr-6 text-4xl" />
           </Link>

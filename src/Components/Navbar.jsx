@@ -29,7 +29,7 @@ const Navbar = () => {
       <nav
         className={`${
           open ? "right-0" : "right-[-400px] md:right-[-500px]"
-        } absolute top-0 transition-all ease-in duration-500 h-screen bg-gray-700 w-[-300px] md:w-[400px] px-20 md:px-20 pt-12`}
+        } absolute top-0 transition-all ease-in duration-500 h-screen bg-gray-700 w-[86%] md:w-[400px] px-10 md:px-20 pt-12`}
       >
         {/* <FaTimes className="text-6xl" onClick={() => setOpen(!open)} /> */}
         <p

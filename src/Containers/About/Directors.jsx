@@ -11,7 +11,7 @@ const directorData = [
 
 const Directors = () => {
   return (
-    <div className="w-[95%] md:w-[85%] mx-auto py-24">
+    <div className="w-[95%] md:w-[85%] mx-auto py-6 md:py-24">
       <div className="text-center pb-6">
         <Title title={"BOARD OF DIRECTORS"} />
       </div>

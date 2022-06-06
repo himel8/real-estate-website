@@ -14,7 +14,7 @@ const concernData = [
 
 const Concern = () => {
   return (
-    <div className="mt-16 mb-12 w-[95%] md:w-[85%] mx-auto py-24">
+    <div className="my-4 md:mt-16 md:mb-12 w-[95%] md:w-[85%] mx-auto py-6 md:py-24">
       <Title title={"concern"} />
       <div className="flex justify-between item-center pt-8 flex-wrap md:flex-nowrap">
         {concernData.map((data, index) => (

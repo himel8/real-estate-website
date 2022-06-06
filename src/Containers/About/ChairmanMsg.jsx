@@ -5,11 +5,11 @@ import Title from "../../Components/Title";
 
 const ChairmanMsg = () => {
   return (
-    <div className="w-[95%] md:w-[85%] mx-auto py-24">
+    <div className="w-[95%] md:w-[85%] mx-auto py-6 md:py-24">
       <div className="md:pr-[37%] px-4 pr-0">
         <Title title={"CHAIRMAN MESSAGE"} />
 
-        <h3 className="pt-8 pb-12 font-secondary capitalize text-3xl font-medium text-gray-700">
+        <h3 className="pt-8 pb-12 font-secondary capitalize text-3xl font-medium text-gray-700 text-center md:text-left">
           Rashed Mahmud
         </h3>
 
@@ -30,7 +30,9 @@ const ChairmanMsg = () => {
           enrich our know how and experience.
         </NormalText>
         <Link to="#!">
-          <p className="capitalize font-secondary font-bold text-lg">explore</p>
+          <p className="capitalize font-secondary font-bold text-lg text-center md:text-left">
+            explore
+          </p>
         </Link>
       </div>
     </div>
